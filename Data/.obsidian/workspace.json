@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "0cc132136d80b2a4",
+    "type": "split",
+    "children": [
+      {
+        "id": "5babc44a9ae02846",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "77467ef8c69372ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "notes/Theory/Probability/Sample Space.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sample Space"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9060c615d49d2e38",
+    "type": "split",
+    "children": [
+      {
+        "id": "c8c15b6e0dd6029e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b64eeaa757ecee69",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9357479bb67f824f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "b3f50fe382504ed5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0bd7f14e95439fe2",
+    "type": "split",
+    "children": [
+      {
+        "id": "f0585c8bcfb0790f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d6e8c27af5075a6d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Obsidian_Notes/notes/Theory/Probability/Sample Space.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Sample Space"
+            }
+          },
+          {
+            "id": "b0010428efd7980b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Obsidian_Notes/notes/Theory/Probability/Sample Space.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Sample Space"
+            }
+          },
+          {
+            "id": "2e61c350f86b07ef",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e12897248df94a23",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Obsidian_Notes/notes/Theory/Probability/Sample Space.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Sample Space"
+            }
+          },
+          {
+            "id": "168bdb9f14f4bf0c",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "graph:Open graph view": false,
+      "obsidian-git:Open Git source control": false,
+      "publish:Publish changes...": false
+    }
+  },
+  "active": "b64eeaa757ecee69",
+  "lastOpenFiles": [
+    "notes/Theory/Probability/Probability of Unions.md",
+    "notes/Theory/Probability/Probability of Complements.md",
+    "notes/Theory/Probability/Permutation.md",
+    "notes/Theory/Probability/Multiplication Rule.md",
+    "notes/Theory/Probability/Combination.md",
+    "notes/Theory/Probability/Conditional Probability.md",
+    "notes/Theory/Probability/Homework/Homework 1.md",
+    "notes/Theory/Probability/Homework",
+    "notes/Theory/Probability/Sample Space.md",
+    "notes/Notes.qmd",
+    "notes",
+    "index_files/libs/quarto-html/tippy.umd.min.js",
+    "index_files/libs/quarto-html/tippy.css",
+    "index_files/libs/quarto-html/quarto.js",
+    "index_files/libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css",
+    "index_files/libs/quarto-html/popper.min.js",
+    "index_files/libs/quarto-html/anchor.min.js",
+    "index_files/libs/bootstrap/bootstrap.min.js",
+    "notes/ML/Maximum Likelihood Estimate.md",
+    "notes/ML/Best Subset Selection.md",
+    "notes/ML/Bayes Classifier.md",
+    "notes/ML/Backwards Selection.md",
+    "notes/ML/AIC.md",
+    "notes/Theory/Sufficient Statistics.md",
+    "notes/ML/Adjusted r2.md",
+    "notes/ML/Validation Set Approach.md",
+    "notes/ML/Training MSE.md",
+    "notes/ML/Stepwise Selection.md",
+    "notes/ML/RSS.md",
+    "notes/ML/Ridge Regression.md",
+    "notes/ML/Resampling.md",
+    "notes/ML/Regularized Regression.md",
+    "notes/ML/Regression.md",
+    "notes/ML/QDA.md",
+    "notes/ML/Naive Bayes.md",
+    "notes/ML/MSE.md",
+    "Untitled.canvas"
+  ]
+}
