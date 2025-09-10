@@ -24,8 +24,7 @@ $P(A|F) = \frac{P(F|A)P(A)}{P(F)}=\frac{.3*.4}{.455}$
 
 3. An aircraft seam requires 25 rivets. The seam will have to be reworked if any of these rivets is defective. Suppose rivets are defective independently of one another, each with the same probability.  
 (a) If 20% of all seams need reworking, what is the probability that a rivet is defective?  
-$.2=1-(1-p)^{25} \rightarrow.8=(1-p)^{25}$ 
-$\Rightarrow \frac{.2}{25}=P(F)=.008$
+$.2=1-(1-p)^{25} \rightarrow.8=(1-p)^{25} \rightarrow.8^{1/25}=1-p\rightarrow p=1-.8^{1/25}$ 
 (b) How small should the probability of a defective rivet be to ensure that only 10% of all seams need reworking?
 
-$.1=25P(F) \rightarrow \frac{.1}{25}=P(F)=.004$
+$.1=1-(1-p)^{25} \rightarrow \frac{.1}{25}=P(F)=.004$
