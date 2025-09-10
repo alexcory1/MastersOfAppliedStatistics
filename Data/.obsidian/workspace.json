@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Theory/Probability/Homework/Homework 2.md",
+                "file": "notes/Theory/Probability/Law of Total Probability.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Homework 2"
+              "title": "Law of Total Probability"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notes/Theory/Probability/Homework/Homework 2.md",
+                "file": "notes/Theory/Probability/Law of Total Probability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Homework 2"
+              "title": "Backlinks for Law of Total Probability"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notes/Theory/Probability/Homework/Homework 2.md",
+                "file": "notes/Theory/Probability/Law of Total Probability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Homework 2"
+              "title": "Outgoing links from Law of Total Probability"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notes/Theory/Probability/Homework/Homework 2.md",
+                "file": "notes/Theory/Probability/Law of Total Probability.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Homework 2"
+              "title": "Outline of Law of Total Probability"
             }
           },
           {
@@ -207,10 +207,11 @@
       "calculite:Show calculator": false
     }
   },
-  "active": "6a27cdc03d0f0973",
+  "active": "77467ef8c69372ae",
   "lastOpenFiles": [
-    "notes/Theory/Probability/Sample Space.md",
     "notes/Theory/Probability/Homework/Homework 2.md",
+    "notes/Theory/Probability/Law of Total Probability.md",
+    "notes/Theory/Probability/Sample Space.md",
     "notes/Theory/Probability/Probability of Unions.md",
     "notes/Theory/Probability/Probability of Complements.md",
     "notes/Theory/Probability/Permutation.md",
@@ -244,7 +245,6 @@
     "notes/ML/Regularized Regression.md",
     "notes/ML/Regression.md",
     "notes/ML/QDA.md",
-    "notes/ML/Naive Bayes.md",
     "Untitled.canvas"
   ]
 }
