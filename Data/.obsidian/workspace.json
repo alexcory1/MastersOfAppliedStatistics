@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notes/Theory/Probability/Sample Space.md",
+                "file": "notes/Theory/Probability/Homework/Homework 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sample Space"
+              "title": "Homework 2"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Obsidian_Notes/notes/Theory/Probability/Sample Space.md",
+                "file": "notes/Theory/Probability/Homework/Homework 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Sample Space"
+              "title": "Backlinks for Homework 2"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian_Notes/notes/Theory/Probability/Sample Space.md",
+                "file": "notes/Theory/Probability/Homework/Homework 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Sample Space"
+              "title": "Outgoing links from Homework 2"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian_Notes/notes/Theory/Probability/Sample Space.md",
+                "file": "notes/Theory/Probability/Homework/Homework 2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sample Space"
+              "title": "Outline of Homework 2"
             }
           },
           {
@@ -163,6 +163,30 @@
           }
         ],
         "currentTab": 4
+      },
+      {
+        "id": "a1f7987db19d2547",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6a27cdc03d0f0973",
+            "type": "leaf",
+            "state": {
+              "type": "calculite",
+              "state": {
+                "previousResult": null,
+                "previousOperator": null,
+                "previousInput": null,
+                "currentResult": null,
+                "currentOperator": null,
+                "currentInput": "0.",
+                "currentError": null
+              },
+              "icon": "lucide-calculator",
+              "title": "Calculite"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
@@ -178,11 +202,15 @@
       "command-palette:Open command palette": false,
       "graph:Open graph view": false,
       "obsidian-git:Open Git source control": false,
-      "publish:Publish changes...": false
+      "publish:Publish changes...": false,
+      "mathpad:Open Mathpad": false,
+      "calculite:Show calculator": false
     }
   },
-  "active": "b64eeaa757ecee69",
+  "active": "6a27cdc03d0f0973",
   "lastOpenFiles": [
+    "notes/Theory/Probability/Sample Space.md",
+    "notes/Theory/Probability/Homework/Homework 2.md",
     "notes/Theory/Probability/Probability of Unions.md",
     "notes/Theory/Probability/Probability of Complements.md",
     "notes/Theory/Probability/Permutation.md",
@@ -191,7 +219,6 @@
     "notes/Theory/Probability/Conditional Probability.md",
     "notes/Theory/Probability/Homework/Homework 1.md",
     "notes/Theory/Probability/Homework",
-    "notes/Theory/Probability/Sample Space.md",
     "notes/Notes.qmd",
     "notes",
     "index_files/libs/quarto-html/tippy.umd.min.js",
@@ -218,7 +245,6 @@
     "notes/ML/Regression.md",
     "notes/ML/QDA.md",
     "notes/ML/Naive Bayes.md",
-    "notes/ML/MSE.md",
     "Untitled.canvas"
   ]
 }
