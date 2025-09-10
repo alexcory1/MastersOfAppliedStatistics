@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Probabilities of Independent Events.md",
+                "file": "notes/Theory/Probability/Homework/Homework 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Probabilities of Independent Events"
+              "title": "Homework 2"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Probabilities of Independent Events.md",
+                "file": "notes/Theory/Probability/Homework/Homework 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Probabilities of Independent Events"
+              "title": "Backlinks for Homework 2"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Probabilities of Independent Events.md",
+                "file": "notes/Theory/Probability/Homework/Homework 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Probabilities of Independent Events"
+              "title": "Outgoing links from Homework 2"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Probabilities of Independent Events.md",
+                "file": "notes/Theory/Probability/Homework/Homework 2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Probabilities of Independent Events"
+              "title": "Outline of Homework 2"
             }
           },
           {
@@ -174,10 +174,10 @@
             "state": {
               "type": "calculite",
               "state": {
-                "previousResult": 0.35,
-                "previousOperator": "×",
-                "previousInput": 0.6,
-                "currentResult": 0.21,
+                "previousResult": 0.1,
+                "previousOperator": "÷",
+                "previousInput": 25,
+                "currentResult": 0.004,
                 "currentOperator": null,
                 "currentInput": null,
                 "currentError": null
@@ -207,10 +207,10 @@
       "calculite:Show calculator": false
     }
   },
-  "active": "77467ef8c69372ae",
+  "active": "6a27cdc03d0f0973",
   "lastOpenFiles": [
-    "notes/Theory/Probability/Probabilities of Dependent Events.md",
     "Probabilities of Independent Events.md",
+    "notes/Theory/Probability/Probabilities of Dependent Events.md",
     "notes/Theory/Probability/Bayes Theorem.md",
     "notes/Theory/Probability/Law of Total Probability.md",
     "notes/Theory/Probability/Homework/Homework 2.md",
