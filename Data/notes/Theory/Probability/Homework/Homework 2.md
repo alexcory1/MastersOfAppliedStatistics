@@ -8,4 +8,18 @@ $P(B\cap\text{defective}) = .35 * .08 = 0.028$
 (b) What is the probability that a randomly selected hard drive is defective?  
 $P(A\cap\text{defective})+P(B\cap\text{defective})+P(C\cap\text{defective}) = .54*.04+.35*.08+.11*.12=.0628$
 (c) Suppose a hard drive is defective. What is the probability that it came from Plant II?
-$P(B|\text{defective}) = \frac{P(\text{defective|B})P(\text{defective})}{P(B)} = \frac{.04*.54}{.0628}$
+$P(B|\text{defective}) = \frac{P(\text{defective|B})P(\text{B})}{P(defective)} = \frac{..08*.35}{.0628}$ 
+
+2. At a gas station, 40% of the customers use regular gas, 35% use midgrade gas, and 25% use premium gas. Only 30% of customers using regular gas fill their tanks, while this percentage is 60% for midgrade gas and 50% for premium gas.  
+
+Let Regular gas be A, midgrade be B, and premium be C
+Let filling the tank be F, and not filling the tank be $F^C$
+
+(a) What is the probability that the next customer will request midgrade gas and fill the tank?  
+$P(B\cap F)=P(B)*P(F|B)=.35*.6=.21$ 
+(b) What is the probability that the next customer fills the tank?  
+$P(F)=P(A\cap F)+P(B\cap F)+P(C\cap F)=.4*.3+.35*.6+.25*.5=.455$
+(c) If the next customer fills the tank, what is the probability that regular gas is requested?
+$P(A|F) = \frac{P(F|A)P(A)}{P(F)}=\frac{.3*.4}{.455}$
+
+3. 

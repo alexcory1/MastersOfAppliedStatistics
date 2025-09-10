@@ -174,12 +174,12 @@
             "state": {
               "type": "calculite",
               "state": {
-                "previousResult": null,
-                "previousOperator": null,
-                "previousInput": null,
-                "currentResult": null,
+                "previousResult": 0.35,
+                "previousOperator": "×",
+                "previousInput": 0.6,
+                "currentResult": 0.21,
                 "currentOperator": null,
-                "currentInput": "0.",
+                "currentInput": null,
                 "currentError": null
               },
               "icon": "lucide-calculator",
