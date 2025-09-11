@@ -174,10 +174,10 @@
             "state": {
               "type": "calculite",
               "state": {
-                "previousResult": 0.1,
-                "previousOperator": "÷",
-                "previousInput": 25,
-                "currentResult": 0.004,
+                "previousResult": null,
+                "previousOperator": null,
+                "previousInput": null,
+                "currentResult": null,
                 "currentOperator": null,
                 "currentInput": null,
                 "currentError": null
