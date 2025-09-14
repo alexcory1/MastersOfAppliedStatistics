@@ -33,24 +33,46 @@ $.1=1-(1-p)^{25} \rightarrow (1-p)^{25}=1-.1\rightarrow(1-p)^{25})\rightarrow.9^
 
 (a) What is the probability all 8 urine tests would come back with the correct no-doping test result if the value of p = 0.95? What about when the value of p = 0.99? What about for a general value p?  
 
-(b) Determine the value of p so that the probability all 8 urine tests came back with the correct  
-no-doping test result is 0.99. Now for parts (c) - (e), assume that Landis WAS doping. Let the probability of a correct doping test result given the assumption that Landis WAS doping to be the value r. (Each test result is still independent of all others).  
+$.95^8, .99^8$
+
+(b) Determine the value of p so that the probability all 8 urine tests came back with the correct no-doping test result is 0.99. 
+
+$.99 = x^8 \rightarrow x=.99^{1/8}$ 
+
+Now for parts (c) - (e), assume that Landis WAS doping. Let the probability of a correct doping test result given the assumption that Landis WAS doping to be the value r. (Each test result is still independent of all others).  
 
 (c) What is the probability that zero or one test out of the 8 would have a correct doping test result if the value of r = 0.9?  
 
+$\binom{8}{0}(.9)^0(.1)^8 + \binom{8}{1}(.9)^1(.1)^7 = .1^8+8(.9)(.1)^7$  
+
 (d) What is the probability that zero or one test out of the 8 would have a correct doping test result if the value of r = 0.95?  
 
+$\binom{8}{0}(.95)^0(.05)^8 + \binom{8}{1}(.95)^1(05)^7$ 
+
 (e) Write a general formula using r for the probability that zero or one test out of the 8 would have a correct doping test result.  
+Let n be the number of tests, r be the probability of successful test, and k be the upper bound. 
+Using the binomial CDF:
+```
+
+
+for (x in 0:k) {
+  p <- p + choose(n, x) * (r^x) * ((1 - r)^(n - x))
+}
+```
+
+Alternatively
+```
+p <- pbinom(k,size=n,prob=r)
+```
+
 
 (f) In May 2010, Floyd Landis finally admitted to doping during the 2006 Tour de France. Based on this information and your calculations in parts (c) - (e), what do you conclude about the accuracy of the tests used?
 
-
+Given Landis admitted to doping, the small probability that only 0 or 1 test would detect doping (c-e) indicates that the tests used were accurate and reliable. The fact multiple tests found high testosterone levels supports the conclusion that the positive results were true, rather than false positives.
 
 
 5. The Monty Hall problem is a well-known puzzle in probability derived from an American game show, Let’s Make a Deal. (The original 1960s-era show was hosted by Monty Hall, giving this puzzle its name.) Intuition leads many people to get the probabilities associated with the puzzle wrong, and when the Monty Hall problem is presented in a newspaper or discussion list, it often leads to a lengthy argument in letters-to-the-editor and on message boards. The game is played like this:  
-• The game show set has three doors. A prize such as a car or vacation is behind one door, and  
-the other two doors hide a valueless prize called a Zonk; in most discussions of the problem, the 
-Zonk is a goat.  
+• The game show set has three doors. A prize such as a car or vacation is behind one door, and  the other two doors hide a valueless prize called a Zonk; in most discussions of the problem, the Zonk is a goat.  
 
 • The contestant chooses one door. We will assume the contestant has no inside knowledge of which door holds the prize, so the contestant just makes a random choice.  
 • The host Monty Hall opens one of the other doors, always choosing one that shows a goat, and always offers the contestant a chance to switch their choice to the remaining unopened door.  
@@ -60,14 +82,11 @@ their chosen door.  For example, let’s say a hypothetical contestant chooses d
 
 The puzzle is: what is the best strategy for the contestant (staying or switching)? Does switching increase the chance of winning the car, decrease it, or make no difference?  
 
-(a) Before you investigate this problem, decide on the strategy you will use in your simulation - 
-staying or switching? Explain why you chose this strategy.  
+(a) Before you investigate this problem, decide on the strategy you will use in your simulation - staying or switching? Explain why you chose this strategy.  
 
 Switching, because you change from the probability that the specific door will have the prize to the complement, the probability that the door chosen at random will *not* have the prize
 
-(b) Go to the link with the Module 2 HW assignment in Canvas. Here you can simulate the Monty 
-Hall problem. Play the game 20 times using your strategy and enter the number of times you  
-won the game on the answer sheet.  
+(b) Go to the link with the Module 2 HW assignment in Canvas. Here you can simulate the Monty Hall problem. Play the game 20 times using your strategy and enter the number of times you won the game on the answer sheet.  
 
 13 times
 
