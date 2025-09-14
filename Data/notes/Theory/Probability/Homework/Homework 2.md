@@ -47,7 +47,7 @@ $\binom{8}{0}(.9)^0(.1)^8 + \binom{8}{1}(.9)^1(.1)^7 = .1^8+8(.9)(.1)^7$
 
 (d) What is the probability that zero or one test out of the 8 would have a correct doping test result if the value of r = 0.95?  
 
-$\binom{8}{0}(.95)^0(.05)^8 + \binom{8}{1}(.95)^1(05)^7$ 
+$\binom{8}{0}(.95)^0(.05)^8 + \binom{8}{1}(.95)^1(.05)^7$ 
 
 (e) Write a general formula using r for the probability that zero or one test out of the 8 would have a correct doping test result.  
 Let n be the number of tests, r be the probability of successful test, and k be the upper bound. 
@@ -110,3 +110,77 @@ Stay: .366
 (g) Given this information, which is the best strategy for playing this game - staying or switching?  Explain your answer.
 
 Switching, because you change from the probability that the door you choose at random (1/3) to the chance that you did not initially select the door at random (2/3). 
+
+
+6. The simulation conducted above gives you an empirical probability of winning the game if you stay with your original choice or if you switch doors. In order to figure out the theoretical probability of winning with each strategy, we need to determine all of the possible options when you play the game.
+
+For example, here is one possible outcome: The prize is behind door #1. The contestant chooses door #2. Monty will open door #3 and offer the contestant the chance to switch to door #1. If the contestant switches to door #1, they win; if they stay with door #2, they lose.  
+This possible outcome is summarized in the table below.  
+
+$$
+\begin{array}{|c|c|c|c|}
+\hline
+\text{Prize} & \text{Pick} & \text{If Switch} & \text{If Stay} \\ 
+\hline
+1 & 2 & \text{Win} & \text{Lose} \\ 
+\hline
+\end{array}
+$$
+
+
+(a) Use the above table to fill in all of the other possible outcomes that can happen when you play  the game.
+
+$$
+\begin{array}{|c|c|c|c|}
+\hline
+\text{Prize} & \text{Pick} & \text{If Switch} & \text{If Stay} \\ 
+\hline
+1 & 1 & \text{Lose} & \text{Win} \\ 
+1 & 2 & \text{Win} & \text{Lose} \\ 
+1 & 3 & \text{Win} & \text{Lose} \\ 
+2 & 1 & \text{Win} & \text{Lose} \\ 
+2 & 2 & \text{Lose} & \text{Win} \\ 
+2 & 3 & \text{Win} & \text{Lose} \\ 
+3 & 1 & \text{Win} & \text{Lose} \\ 
+3 & 2 & \text{Win} & \text{Lose} \\ 
+3 & 3 & \text{Lose} & \text{Win} \\ 
+\hline
+\end{array}
+$$
+
+
+
+(b) How many of these outcomes will result in a win if you stay with your original door? How many of these outcomes will result in a win if you switch doors?
+
+Stay: 3
+Switch: 6
+
+
+(c) What is the probability of winning the game if you stay with the original door? What is the probability of winning the game if you switch doors?
+
+Stay: 3/9=1/3
+Switch:6/9=2/3
+
+
+7. Now suppose you are a producer on Let’s Make a Deal and as part of your duties, you are in charge of the budget for prizes for this game.  
+(a) If 50% of all contestants will stay with their original choice (meaning the other 50% will switch), what is the probability a randomly selected contestant will win the game?
+
+$$
+.5(1/3)+.5(2/3)=.5/3+1/3=1.5/3=.5
+$$
+
+(b) Suppose over the course of a year, the game is played 200 times. How many cars would you expect these 200 contestants to win?  
+
+100
+
+(c) Obviously, the answers to parts (a) and (b) depend on the percentage of contestants who will choose to stay (or switch). Calculate the probability a randomly selected contestant will win the game if all contestants stay with their original choice? If 75% stay? If 25% stay? If no one stays?  
+
+75% stay: $.75(1/3)+.25(2/3)$
+25% stay $.25(1/3)+.75(2/3)$
+
+(d) If the game is played 200 times, what is the smallest number and largest number of cars you would expect these contestants to win?
+
+Smallest (75% stay): 83
+
+Largest (25% stay): 116
+
