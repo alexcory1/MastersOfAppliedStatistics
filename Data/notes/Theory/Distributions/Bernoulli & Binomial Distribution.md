@@ -18,7 +18,25 @@ Example:
 The probability mass function of a Binomial Random Variable Y is:
 $p(y)=\binom{n}{y}p^yq^{n-y}$
 where y is the number of successes
+## Moments
+Mean of Y: $\mu = E(Y) = np$
+Variance of Y: $\sigma^2 = V(Y) = npq$
+MGF of Y: $M_Y(t)=(pe^t+q)^n$
 # Bernoulli Random Variable
 The probability mass function for a Bernoulli Random Variable Y is:
 $p^yq^{1-y}$
 where y is the probability of success
+## Moments
+Mean of Y: $\mu =E(Y) = p$
+Variance of Y: $\sigma^2=V(Y)=pq$
+MGF of Y: $M_Y(t)=pe^t+q$
+
+## Parameters
+Parameters for a random variable are values that completely determine the PMF for the distribution
+
+- Bernoulli RV
+	- Probability of success = p
+- Binomial RV
+	- Number of trials = n
+	- Probability of Success = p
+
