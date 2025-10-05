@@ -39,4 +39,4 @@ Let Y be a Continuous Random Variable with cdf F(y) and pdf f(y)
 * Limit approaching $-\infty$ is 0, positive infinity is 1
 * F(y) is a non-decreasing function in y
 * $\forall a,b. a<b,P(a\leq Y \leq b)=F(b)-F(a)$
-* 
+*
