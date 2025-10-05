@@ -8,3 +8,14 @@ $M_Y(t)=E(e^{tY})=\sum_ye^{ty}p(y)$
 Let $M_Y(t)$ be the moment generating function for a discrete random variable 
 
 $E(Y^r) = \left. \frac{\partial^r M_Y(t)}{\partial t^r} \right|_{t=0}$
+
+
+# Continuous
+
+$M_Y(t)=E(e^{tY})=\int_{-\infty}^\infty e^{ty}f(y)dy$
+
+
+# Rules
+* Let c be a constant: 
+	* E(c)=c
+	* E(cg(Y))=cE(g(Y))

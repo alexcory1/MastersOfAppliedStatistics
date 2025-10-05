@@ -57,3 +57,9 @@ E[Y] = \sum_{y=2}^{12} y \, p(y) =
 12 \cdot \tfrac{1}{36}.
 $$
 $V(Y)=E(Y^2)-\mu^2=54.8\bar{3}-7^2=5.8\bar{3}$ 
+
+
+# Continuous
+$V(Y)=E((Y-\mu)^2)=\int_{-\infty}^\infty(y-\mu)^2f(y)dy=\sigma^2$
+Conceptually, the variance is the average squared distance of the observations from the mean in an infinite number of observations of the random variable
+Variance of Y is usually calculated using the formula $V(Y)=E(Y^2)-\mu^2$
